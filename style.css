@@ -1,0 +1,126 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial;
+}
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    position: fixed;
+    height: 90px;
+    width: 1300px;
+align-items: center;
+background-color: white;
+}
+.nav-ops{
+     display: flex;
+    align-items: center;
+}
+.nav-ops p:hover {
+color: red;
+}
+.nav-ops p{
+    margin: 8px;
+    font-weight: 600;
+
+}
+.nav-search {
+
+    font-size: 20px;
+}
+
+/* HERO SECTION */
+
+.hero{
+    background-image:url(bg.jpg);
+    height: 700px;
+    background-size: cover;
+}
+.hero p{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    padding-top: 250px;
+    padding-left: 40px;
+}
+.hero-btn{
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.btn{
+    height: 55px;
+    width: 140px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.btn:hover{
+    color:#83093e ;
+    background-color: white;
+}
+
+/* speed section */
+
+.speed{
+    padding-top: 100px;
+padding-left: 40px;
+}
+.speed-p1{
+    color: red;
+    font-size: 50px;
+}
+.speed-p2{
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 50px;
+}
+.speed-p3{
+    color:rgba(0, 0, 0, 0.76);
+    font-size: 20px;
+}
+.speed-btn{
+    display: flex;
+}
+.btn1{
+     height: 55px;
+    width: 140px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin: 20px;
+}
+.btn1:hover{
+    background-color: #83093e;
+}
+.btn2{
+ height: 55px;
+    width: 140px;
+    border: 0.2px solid red;
+    /* background-color: white; */
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.btn2:hover{
+    color: white;
+    background-color: red;
+}
+.big{
+    background-color: #5c062b;
+}
